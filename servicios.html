@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css"> 
+
+
+
+    <script>
+        function fcamisas() {
+          document.getElementById("sastreriacamisa").innerHTML = "<h1> Taller los sábados de 11 am a 1 pm </h1>";
+        }
+        </script>
+
+<script>
+    function finvisible() {
+      document.getElementById("cosinvisible").innerHTML = "<h1> Taller los sábados de 2 a 4 pm </h1>";
+    }
+    </script>
+
+<script>
+    function fpatronm() {
+      document.getElementById("patront").innerHTML = "<h1> Taller los viernes de 6 a 8 pm </h1>";
+    }
+    </script>
+
+
+</head>
+<body>
+
+    <style>
+        body{
+            background: rgb(0, 238, 255,0.2)
+    
+    
+        }
+     </style>
+     
+    <!-- sesion servicios 1 -->
+    <section "servicios1">
+
+<h1 class="Titulo"> Atelier del modista</h1>
+<nav class="navegar2">
+    <a href="index.html"> Inicio</a>
+    <a href="servicios.html"> Servicios</a>
+    <a href="quiensoy.html"> Quien soy</a> 
+    <a href="contacto.html"> Contacto</a>
+    
+</nav>
+
+    </section>
+
+    <p> Es un espacio pensado para que los sastres y las modistas con más experiencia puedan
+        actualizar o adquirir nuevos conocimientos con talleres avanzado</p>
+   
+    <!-- Sesion servicios 2 -->
+<section class="servicios2 banner">
+    <img src="Imagenes/banner atelier.jpg" alt="">
+
+</section>
+
+<!-- Sesion servicios 3 -->
+
+<h1 class="titulo cuerpo">  Proximos talleres</h1>
+<section class="servicios3cuerpo">
+<article id="sastreriacamisa">
+<h2 class="titulo2"> Taller actualización sastreria camisas </h2>
+<img src="Imagenes/Sasteria camisas.jpg" alt="">
+<button type="button" onclick="fcamisas()">mas informacion </button>
+</article>
+
+
+<article id="cosinvisible">
+<h2 class="Titulo3"> Taller costura invisible con maquina </h2>
+<img src="Imagenes/costurainvisible.jpg" alt="">
+<button type="button" onclick="finvisible()">mas informacion </button>
+</article>
+
+<article id="patront">
+<h2 class="Titulo3"> Patrones tendencia temporada </h2>
+<img src="Imagenes/patronajetaller.jpg" alt="">
+<button type="button" onclick="fpatronm()">mas informacion </button>
+</article>
+
+</section>
+
+
+</body>
+</html>

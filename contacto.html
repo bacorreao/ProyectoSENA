@@ -6,6 +6,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css"> 
 
+    <style>
+      img {
+        float: left;
+      }
+      </style>
+
+      <script>
+        function alerta(){
+          alert("Gracias, nos pondremos en contacto lo antes posible");
+        }
+
+      </script>
+
 </head>
 <body>
 
@@ -17,7 +30,7 @@
 
 
     <!-- sesion 1 contacto -->
- <Section "contacto1" >
+ <Section class="contacto1" >
   
   <nav class="navegar4">
     
@@ -27,13 +40,38 @@
     <a href="contacto.html"> Contacto</a>
 
       </Section>
+  <!-- sesion 2 contacto -->
 
-<section "infocontacto">
-        <h1>Contacta directamente a tarves de:</h1>
-        <h2>Whatsapp</h2>
-        <h2>Instagram</h2>
+<div>
+  <h1> Contacto </h1>
+  <form action="" method="post">
+    <label for="">Nombre</label>
+    <input type="text" placeholder="Escriba su nombre">
+    <label for="">Apellido</label>
+    <input type="text" placeholder="Escriba su apellido"><br>
+    <label for="">acepta condiciones y tratamiento de datos personales</label>
+    <input type="radio" name="" id=""><br>
+    <input type="submit" value="ENVIAR" onclick="alerta()"><br>
 
-        <h2>Estamos ubicados en plaza de la vila, 11</h2>
+
+
+
+  </form>
+  
+  
+</div>
+
+
+
+
+    <!-- sesion x contacto -->
+      <section class="mapa">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.537454684689!2d1.3940746763367016!3d41.144622371331856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a3f138657cbf43%3A0xbde3873b9ab9de74!2sMAITETXU%20MODISTA!5e0!3m2!1ses!2ses!4v1713995127497!5m2!1ses!2ses" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
 
       </section>
 </body>

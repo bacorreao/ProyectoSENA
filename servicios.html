@@ -25,8 +25,24 @@
       document.getElementById("patront").innerHTML = "<h1> Taller los viernes de 6 a 8 pm </h1>";
     }
     </script>
+    
+<script>
+    function fmodbasic() {
+        document.getElementById("modisteriabasic").innerHTML = "<h1> Taller los viernes de 4 a 6 pm </h1>";
+    }
+    </script>
 
+<script>
+    function fropainterior() {
+      document.getElementById("ropainterior").innerHTML = "<h1> Taller los viernes de 2 a 4 pm </h1>";
+    }
+    </script>
 
+<script>
+    function fropadep() {
+      document.getElementById("ropadep").innerHTML = "<h1> Taller los viernes de 10 am a 12 m </h1>";
+    }
+    </script>
 </head>
 <body>
 
@@ -37,7 +53,7 @@
     
         }
      </style>
-     
+
     <!-- sesion servicios 1 -->
     <section "servicios1">
 
@@ -57,7 +73,7 @@
    
     <!-- Sesion servicios 2 -->
 <section class="servicios2 banner">
-    <img src="Imagenes/banner atelier.jpg" alt="">
+    <img src="Imagenes/banner atelier.jpg" alt="100%">
 
 </section>
 
@@ -67,25 +83,60 @@
 <section class="servicios3cuerpo">
 <article id="sastreriacamisa">
 <h2 class="titulo2"> Taller actualización sastreria camisas </h2>
-<img src="Imagenes/Sasteria camisas.jpg" alt="">
+<img src="Imagenes/Sasteria camisas.jpg" alt=""; width="240px">
 <button type="button" onclick="fcamisas()">mas informacion </button>
 </article>
 
 
 <article id="cosinvisible">
 <h2 class="Titulo3"> Taller costura invisible con maquina </h2>
-<img src="Imagenes/costurainvisible.jpg" alt="">
+<img src="Imagenes/costurainvisible.jpg" alt=""; width="240px">
 <button type="button" onclick="finvisible()">mas informacion </button>
 </article>
 
 <article id="patront">
 <h2 class="Titulo3"> Patrones tendencia temporada </h2>
-<img src="Imagenes/patronajetaller.jpg" alt="">
+<img src="Imagenes/patronajetaller.jpg" alt=""; width="240px">
 <button type="button" onclick="fpatronm()">mas informacion </button>
+
+
+
+
 </article>
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+ 
+</div>
+</article>
+</section>
+<section class="servicios32cuerpo">
+
+    <article id="modisteriabasic">
+        <h2 class="Titulo3"> Iniciación en la costura y sastrería</h2>
+        <img src="Imagenes/Academia.jpg" alt=""; width="240px">
+        <button type="button" onclick="fmodbasic()">mas información</button>
+    </article>
+    
+    
+    <article id="ropainterior">
+        <h2 class="Titulo3"> Confección de ropa interior</h2>
+        <img src="Imagenes/PAtronaje.jpg" alt=""; width="240px">
+        <button type="button" onclick="fropainterior()">mas información</button>
+    </article>
+    
+    <article id="ropadep">
+    <h2 class="Titulo3"> Ropa deportiva masculina y femenina</h2>
+    <img src="Imagenes/ropadep.jpg" alt=""; width="240px">
+    <button type="button" onclick="fropadep()">mas información</button>
+
+    <div class="clearfix"></div>
+
+    <div style="padding:6px;">
+     
+    </div>
 
 </section>
-
 
 </body>
 </html>

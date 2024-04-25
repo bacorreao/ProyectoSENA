@@ -8,19 +8,6 @@
 }
 
 
-.portada{
-    width: 100%;
-    height: 500px;
-    position: relative;
-    top: 80px;
-    background-image: url("../../htdocs/ProyectoSENA/Imagenes/Banner.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-
-}
-
 
 a:link, a:visited {
     background-color:  #2b2beb;
@@ -41,17 +28,86 @@ a:hover {
     grid-template-columns: auto auto auto;
 }
 
+@media only screen and (max-width: 800px) {
+    .sesion3{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .sesion3{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
 .sesion4{
 
 display: grid;
 grid-template-columns: auto auto auto;
 }
 
+@media only screen and (max-width: 800px) {
+    .sesion4{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .sesion4{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+
+ 
 .servicios3cuerpo {
     display: grid;
     grid-template-columns: auto auto auto;
+   
 
 }
+
+@media only screen and (max-width: 800px) {
+    .servicios3cuerpo{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .servicios3cuerpo{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+
+.servicios32cuerpo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .servicios32cuerpo{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .servicios32cuerpo{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+
+
+
 
 .navegar2 {
     display: flex;

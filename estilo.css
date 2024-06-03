@@ -23,6 +23,11 @@ a:hover {
     display: flex;
     justify-content: center;
 }
+
+
+
+
+
 .sesion3{
     display: grid;
     grid-template-columns: auto auto auto;
